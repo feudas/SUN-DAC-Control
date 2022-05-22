@@ -32,4 +32,14 @@ Es sollte nun der DAC Einnag am Anschluss des EXTERNEN Limiters zur verfügung s
 Im Ordner "SUN_Steuerung_ESP" findet sich die Programmdatei um den ESP zu Programmieren.
 Die Datei ist der einfacheit halber für die Arduinoi API, da diese wohl noch immer am meisten genutzt wird. 
 In der Datei müssen noch die Daten für WLAN und MQTT Server angepasst werden.
- 
+
+Die DAC Steuerung sollte unbedingt über die 12V vom Controller Board versorgt werden, 
+um irgendwelchen Schwierigkeiten durch externe Stromversorgungen aus dem Weg zu gehen.
+
+- Wir benötigen ein ESP8266 Board. 
+  Welches ist eigentlich egal ausser dem I2C und der Versorgungsanschlüsse wird nichts genutzt.
+- Einen Spannungsregler 3,3v oder 5v abhängig davon ob euer ESP Board einen 5v Eingang besitzt.
+- Einen Widerstand 10kOhm den wir als Pulldown an den DAC Ausgang schalten.
+
+Daraus wird schon klar wie die Schaltung aufgebaut werden muss.
+Ich werde noch Bilder der von mir verwendeten Teile und einen Schaltplan nachreichen.
