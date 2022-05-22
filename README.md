@@ -39,7 +39,8 @@ um irgendwelchen Schwierigkeiten durch externe Stromversorgungen aus dem Weg zu 
 - Wir benötigen ein ESP8266 Board. 
   Welches ist eigentlich egal ausser dem I2C und der Versorgungsanschlüsse wird nichts genutzt.
 - Einen Spannungsregler 3,3v oder 5v abhängig davon ob euer ESP Board einen 5v Eingang besitzt.
+  Ich nutze einen LM2596, da er einstellbar und deshalb für beide Fälle nutzbar ist.
 - Einen Widerstand 10kOhm den wir als Pulldown an den DAC Ausgang schalten.
 
 Daraus wird schon klar wie die Schaltung aufgebaut werden muss.
-Ich werde noch Bilder der von mir verwendeten Teile und einen Schaltplan nachreichen.
+Ein Bild der Schaltung wie ich sie aufgebaut habe, ist auf dem Bild "Circuit.jpg" zu sehen.
