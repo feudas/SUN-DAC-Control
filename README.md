@@ -1,7 +1,15 @@
 # SUN-DAC-Control
 Steuerung des SUN-1000 und Sun-2000 Inverters über eine DAC Steuerung.
 Vorweg sei gesagt das die eigentliche Idee mit einem DAC zu steuern von mir nur aufgegriffen wurde. 
-Ich versuche den Ursprung so gut es geht zu Recherchieren und werde ihn als Quelle noch nachtragen.
+Die Quelle der DAC Idee ist von einem User namens Torakas. Im IAMMETER Forum. Der dort
+Diesen vorschlag angebracht hatte um an einem Gewinnspiel teilzunehmen.
+Solle sonst noch jemand Teile seiner Ideen hier finden und möchte Namendlich 
+genannt werden bitte ich um eine entsprechende Mitteilung.
+
+Ich übernehme keine Haftung für Schäden die aufgrund der Anwendung der in dieser
+Veröffentlichung genannten Informationen entstehen. 
+Der Nutzer verlässt sich allein auf eigenes Risiko und eigene Verantwortung 
+auf die von mir gemachten Angaben in dieser Veröffentlichung. 
 
 
 1. Vorbereitungen am SUN
@@ -33,8 +41,9 @@ Im Ordner "SUN_Steuerung_ESP" findet sich die Programmdatei um den ESP zu Progra
 Die Datei ist der einfacheit halber für die Arduinoi API, da diese wohl noch immer am meisten genutzt wird. 
 In der Datei müssen noch die Daten für WLAN und MQTT Server angepasst werden.
 
-Die DAC Steuerung sollte unbedingt über die 12V vom Controller Board versorgt werden, 
-um irgendwelchen Schwierigkeiten durch externe Stromversorgungen aus dem Weg zu gehen.
+Achtung, die DAC Steuerung sollte unbedingt über die 12V vom Controller Board versorgt werden, 
+um irgendwelchen Schwierigkeiten durch externe Stromversorgungen aus dem Weg zu gehen, 
+die bis hin zur Zerstöhrung des SUN Controllerboards gehen können.
 
 - Wir benötigen ein ESP8266 Board. 
   Welches ist eigentlich egal ausser dem I2C und der Versorgungsanschlüsse wird nichts genutzt.
