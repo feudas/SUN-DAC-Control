@@ -30,6 +30,10 @@ Auf dem Controller Board muss nun der Anschluss vom Externen Limiter umgesteckt 
 Er muss von seinem ursprünglichen Anschluss entfernt und auf den Anschluss RT1 gesteckt werden. 
 Das ist der Anschluss unten rechts, neben dem roten, auf dem Bild „Control-Board-SUN-1“.
 
+Control-Board-SUN-1:
+![grafik](https://github.com/feudas/SUN-DAC-Control/blob/main/images/Control-Board-SUN-1.jpg?raw=true)
+Control-Board-SUN-1
+
 Nun kann der SUN wieder zusammnengebaut werden. 
 Es sollte nun der DAC Einnag am Anschluss des EXTERNEN Limiters zur verfügung stehen und ein
 12V Anschluss entweder selbst gelegt oder von der RS232 Schnitstelle.
@@ -52,4 +56,7 @@ die bis hin zur Zerstöhrung des SUN Controllerboards gehen können.
 - Einen Widerstand 10kOhm den wir als Pulldown an den DAC Ausgang schalten.
 
 Daraus wird schon klar wie die Schaltung aufgebaut werden muss.
-Ein Bild der Schaltung wie ich sie aufgebaut habe, ist auf dem Bild "Circuit.jpg" zu sehen.
+
+Die Schaltung:
+![grafik](https://github.com/feudas/SUN-DAC-Control/blob/main/images/Circuit.jpg?raw=true)
+Die Schaltung wie ich sie aufgebaut habe.
