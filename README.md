@@ -60,3 +60,7 @@ Daraus wird schon klar wie die Schaltung aufgebaut werden muss.
 Die Schaltung:
 ![grafik](https://github.com/feudas/SUN-DAC-Control/blob/main/images/Circuit.jpg?raw=true)
 Die Schaltung wie ich sie aufgebaut habe.
+
+Im Ordner "SUN_Steuerung_HTTP_Wemos2Wemos" befindet sich eine Version der Steuerung mit einer direkten Verbindung zwischen Verbrauchsmessung und dem SUN. Diese Software wurde vom Benutzer "TEsting" auf dem Discord des YouTube Kanals "Der Kanal" zur Verfügung gestellt. Sie ist weder auf Funktion noch auf Fehlerfreiheit geprüft.
+
+Im Ordner " images2" befinden sich einige Bilder der Steuerung als Variante mit einem Wemos und einem Linearen 5V Spannungsregler L7805 statt des LM2596. Das ganze auf einer Lochrasterplatine mit einem SUB-D 9Pol Stecker an den Sun anzuschließen für die 12V. Auch diese Variante funktioniert.
